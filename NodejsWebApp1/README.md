@@ -14,6 +14,6 @@
 - use Coinkite API
 - get promises going with that API
 
-
+check in compiled js!
 
 
