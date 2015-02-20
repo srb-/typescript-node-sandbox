@@ -2,23 +2,26 @@
 
 - DONE - Express 4
 - DONE - github working
-- truecrypt going
-- publish to OpenShift
-- make sure OpenShift is SSL
+- DONE - check in compiled js!
+- DONE - publish to OpenShift
+- DONE - make sure OpenShift is SSL
+- redirect to SSL, see if you can do local
 - split files and do modular thing server
+- browser code
 - modular files on client
 - mongoDB
-- bower
 - passport authentication
-- browser code
+- truecrypt going
+- bower
 - share data structures in node and browser
+
 - use Coinkite API
-- get promises going with that API
 - testcases for server
 - testcases client
 - continuous integration
+- get promises going with that API
 
-check in compiled js!
+https://help.openshift.com/hc/en-us/articles/202398810-How-to-redirect-traffic-to-HTTPS-
 
 
 
