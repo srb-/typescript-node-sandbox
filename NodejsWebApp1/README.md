@@ -1,6 +1,8 @@
 ﻿# NodejsWebApp1
 
-- Express 4
+- DONE - Express 4
+- DONE - github working
+- truecrypt going
 - publish to OpenShift
 - make sure OpenShift is SSL
 - split files and do modular thing
