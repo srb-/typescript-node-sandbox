@@ -1,9 +1,11 @@
+var testmodule = require('./TestModule');
 var express = require('express');
 var app = express();
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 443;
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 app.get('/', redirectSec, function (req, res) {
-    res.send('Hello World redirected from Express in SSL!!!');
+    var myclass = new testmodule.TestClass("hello from an external module");
+    res.send('Hello World redirected from Express in SSL!!! ' + myclass.FirstName);
 });
 function redirectSec(req, res, next) {
     if (req.headers['x-forwarded-proto'] == 'http') {

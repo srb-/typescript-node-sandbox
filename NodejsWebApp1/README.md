@@ -12,6 +12,7 @@
 - browser code
 - modular files on client
 - mongoDB
+- REST client grab data from server common ADT
 - passport authentication
 - truecrypt going
 - get gulp going for browser reloads?

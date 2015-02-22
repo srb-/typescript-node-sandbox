@@ -1,4 +1,7 @@
 ﻿
+
+import testmodule = require('./TestModule');
+
 var express = require('express');
 var app = express();
 
@@ -7,7 +10,10 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 
 app.get('/', redirectSec, function (req, res) {
-    res.send('Hello World redirected from Express in SSL!!!')
+
+    var myclass: testmodule.TestClass = new testmodule.TestClass("hello from an external module");
+
+    res.send('Hello World redirected from Express in SSL!!! ' + myclass.FirstName);
 })
 
 
