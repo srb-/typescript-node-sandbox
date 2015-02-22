@@ -8,13 +8,15 @@
 - DONE - redirect to SSL, 
 - DONE - see if you can do local SSL!
 - split files and do modular thing server
+- bower
 - browser code
 - modular files on client
 - mongoDB
 - passport authentication
 - truecrypt going
-- bower
+- get gulp going for browser reloads?
 - share data structures in node and browser
+- Facebook React templates going
 
 - use Coinkite API
 - testcases for server
@@ -25,6 +27,14 @@
 https://help.openshift.com/hc/en-us/articles/202398810-How-to-redirect-traffic-to-HTTPS-
 
 
+when I start again:
+	refactor out some common code
+	read typescript daily to get better
+	then get the modules going on server
+
+
+
+-----------
 
 to get localhost.ssl going
 
