@@ -1,16 +1,17 @@
 {
-    "name": "NodejsWebApp1",
-    "version": "0.0.0",
-    "description": "NodejsWebApp1",
-    "author": {
-        "name": "stephen.beath",
-        "email": ""
-    },
-    "dependencies": {
-        "express": "^4.11.2"
-    },
-    "scripts": {
-        "start": "node server.js"
-    },
-    "main": "server.js"
+  "name": "NodejsWebApp1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "author": {
+    "name": "stephen.beath",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "pem": "^1.5.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
 }
