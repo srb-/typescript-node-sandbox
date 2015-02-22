@@ -54,7 +54,7 @@ import it into trusted roots
 
 git pull openshift master
 git merge openshift master -s recursive -X ours
-git remote add opentshift ssh://blah
+git remote add openshift ssh://54e3a853e0b8cd03d40000c3@sandbox1-dataheads.rhcloud.com/~/git/sandbox1.git/
 
 
 git push openshift HEAD
