@@ -5,7 +5,7 @@
 - DONE - check in compiled js!
 - DONE - publish to OpenShift
 - DONE - make sure OpenShift is SSL
-- redirect to SSL, 
+- DONE - redirect to SSL, 
 - DONE - see if you can do local SSL!
 - split files and do modular thing server
 - browser code
