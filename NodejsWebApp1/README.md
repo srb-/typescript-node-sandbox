@@ -5,7 +5,8 @@
 - DONE - check in compiled js!
 - DONE - publish to OpenShift
 - DONE - make sure OpenShift is SSL
-- redirect to SSL, see if you can do local
+- redirect to SSL, 
+- DONE - see if you can do local SSL!
 - split files and do modular thing server
 - browser code
 - modular files on client
@@ -29,8 +30,9 @@ to get localhost.ssl going
 
 add to etc/hosts localhost.ssl 127.0.0.1.. don't forget sudo
 
-
-in backrailbars/scripts
+before using OpenSSL set advanced environment variable:
+OPENSSL_CONF = 
+C:\Program Files (x86)\Git\ssl\openssl.cnf
 
 sudo openssl genrsa -des3 -out server.key 1024
 sudo openssl req -new -key server.key -out server.csr
